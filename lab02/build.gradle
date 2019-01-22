@@ -11,7 +11,8 @@ dependencies{
 }
 
 task application{
-    mainClassName = 'SimpleTest'
+    //mainClassName = 'SimpleTest'
+    mainClassName = 'CSVDemo'
 }
 
 run{
