@@ -1,0 +1,57 @@
+buildscript {
+    repositories{
+      flatDir dirs: '/Users/nanatan/Desktop/impt/SoftDev/LAB/csci2020u/proguard6.0.3/lib'
+    }
+    dependencies  {
+        classpath ':proguard'
+    }
+}
+
+plugins{
+    id 'application'
+}
+
+repositories{
+  mavenCentral()
+  //flatDir dirs: '/Users/nanatan/Desktop/impt/SoftDev/LAB/csci2020u'
+}
+
+dependencies{
+  //classpath ':proguard6.0.3'
+  compile 'org.apache.commons:commons-csv:1.6'
+}
+
+
+task application{
+    //mainClassName = 'SimpleTest'
+    mainClassName = 'CSVDemo'
+}
+
+
+task (minify, dependsOn: 'jar', type: proguard.gradle.ProGuardTask){
+    configuration 'proguard.cfg'
+
+    injars '/Users/nanatan/Desktop/impt/SoftDev/LAB/csci2020u/proguard6.0.3/lib/proguard.jar'
+    outjars 'proguard_out.jar'
+}
+
+run{
+    args = ['RUN THIS PLEASEEEE']
+}
+
+apply plugin: 'java'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
