@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="lab01"/>
+	<classpathentry kind="src" path="lab02/src/main/java"/>
+	<classpathentry kind="src" path="lab03/src/main/java"/>
+	<classpathentry kind="src" path="lab04/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/annotations/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/ant/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/core/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/examples/android/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/examples/annotations/examples"/>
+	<classpathentry kind="src" path="proguard6.0.3/gradle/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/gui/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/retrace/src"/>
+	<classpathentry kind="src" path="proguard6.0.3/wtk/src"/>
+	<classpathentry kind="lib" path="lab02/build/libs/csci2020u.jar"/>
+	<classpathentry kind="lib" path="lab02/build/libs/lab02.jar"/>
+	<classpathentry kind="lib" path="lab03/build/libs/csci2020u.jar"/>
+	<classpathentry kind="lib" path="lab03/build/libs/lab03.jar"/>
+	<classpathentry kind="lib" path="lab03/build/libs/new.jar"/>
+	<classpathentry kind="lib" path="proguard6.0.3/lib/annotations.jar"/>
+	<classpathentry kind="lib" path="proguard6.0.3/lib/proguard.jar"/>
+	<classpathentry kind="lib" path="proguard6.0.3/lib/proguardgui.jar"/>
+	<classpathentry kind="lib" path="proguard6.0.3/lib/retrace.jar"/>
+	<classpathentry kind="output" path="lab02/build/classes/java/main"/>
+</classpath>
