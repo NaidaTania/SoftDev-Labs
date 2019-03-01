@@ -1,0 +1,15 @@
+.root {
+/* background color for selected checkbox */
+-fx-background-color:white;
+ }
+
+.default-color0.chart-bar { -fx-bar-fill: red }
+.default-color1.chart-bar { -fx-bar-fill: blue }
+
+
+.default-color0.chart-pie { -fx-pie-color: #00FFFF; }
+.default-color1.chart-pie { -fx-pie-color: #FFD700; }
+.default-color2.chart-pie { -fx-pie-color: #FF8C00; }
+.default-color3.chart-pie { -fx-pie-color: #E9967A; }
+.default-color4.chart-pie { -fx-pie-color: #7CFC00; }
+.default-color5.chart-pie { -fx-pie-color: #DDA0DD; }
